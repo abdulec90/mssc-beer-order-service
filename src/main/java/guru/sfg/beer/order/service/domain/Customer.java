@@ -16,12 +16,16 @@
  */
 package guru.sfg.beer.order.service.domain;
 
+import guru.sfg.beer.order.service.web.model.BeerOrderDto;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.*;
+
 import java.sql.Timestamp;
 import java.util.Set;
 import java.util.UUID;
